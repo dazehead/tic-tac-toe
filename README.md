@@ -16,4 +16,4 @@ The majority of the work was done using the JUNO app when I was not at home so I
     * As it is now the `display_board` displays on the terminal as a list I would have liked to have made that function so it does not display `['-', '-', '-']` this way and instead displayed `[  -    -    -  ]` I attempted a couple of `for` loops but my only idea would have been to convert each list item to a string and have it display on the terminal. 
     * I do plan on implementing tkinter GUI as a part of this code for a later date
 
-You can find this repository on my [GitHub](https://github.com/dazehead)
+You can find this repository on my [GitHub](https://github.com/dazehead/tic-tac-toe)
