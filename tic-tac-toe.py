@@ -1,4 +1,5 @@
-class Player: # creates a player with name/unique symbol and sets win to False for loop control
+ # creates a player with name/unique symbol and sets win to False for loop control
+class Player:
     def __init__(self, name,symbol = "X"):
         self.name = name
         self.symbol = symbol
@@ -6,11 +7,14 @@ class Player: # creates a player with name/unique symbol and sets win to False f
     def __repr__(self):
         return "\n" + self.name + " = " + self.symbol + " win = " + str(self.win)
 
+# dictionary for board 
 board = {
     "A": ["-","-","-"],
     "B": ["-","-","-"],
     "C": ["-","-","-"]
 }
+
+#start of game menu w/ logic for only inputing 'X' or 'O'
 def menu():
     print("***************")
     print("*             *")
@@ -24,6 +28,7 @@ def menu():
     player2 = input("\nPlayer 2 what is your name:\n").title()
     return player1, player2, symbol
 
+# displays board to terminal
 def display_board():
     print("====================")
     print("       BOARD")
@@ -32,17 +37,20 @@ def display_board():
     print("    0    1    2")
     print("====================")
 
+#function for if player wins
 def winner(p):
     p.win = True
     print("Congratulations " + p.name + " you have won!!!")
     display_board()
 
+#logic for verfing a tied game
 def check_tie(p):
     if '-' not in board['A'] and '-' not in board['B'] and '-' not in board['C']:
         display_board()
         print("There has been a Tie")
         p.win = True
 
+#logic for winning a game
 def check_win(p):
     check_tie(p)
     if board["A"][0]==p.symbol and board["A"][1]== p.symbol and board["A"][2]==p.symbol:
@@ -62,6 +70,7 @@ def check_win(p):
     elif board["A"][2]==p.symbol and board["B"][1]== p.symbol and board["C"][0]==p.symbol:
         winner(p)
 
+# inserts input onto board, checks if symbol is already on board and any input errors
 def insert(coord, p):
     try:
       x, y = coord[0], int(coord[1])
@@ -94,7 +103,7 @@ def play(p):
       coords = input(p.name + ' which space would you like?\n').upper()
     insert(coords, p)
 
-
+### start of the game ###
 player1, player2, symbol = menu()
 p1 = Player(player1, symbol)
 if p1.symbol == "X":
@@ -109,4 +118,3 @@ while p1.win == False and p2.win == False:
       break
     display_board()
     play(p2)
-
