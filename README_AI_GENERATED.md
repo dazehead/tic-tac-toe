@@ -17,7 +17,7 @@
 ![4th input](https://github.com/dazehead/tic-tac-toe/blob/master/chatGPT_images/4th_input.png)
 
 # 5th Input
-##it responded with the full code but at the bottom it looked like some was cutoff I then asked the AI if there was a limit on how much it could print and I found out YES there was a limit on character it could print. From here on I decided to ask more specific questions
+## it responded with the full code but at the bottom it looked like some was cutoff I then asked the AI if there was a limit on how much it could print and I found out YES there was a limit on character it could print. From here on I decided to ask more specific questions
 ![5th input](https://github.com/dazehead/tic-tac-toe/blob/master/chatGPT_images/5th_input.png)
 
 # 6th Input
