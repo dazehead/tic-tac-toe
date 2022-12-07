@@ -1,4 +1,4 @@
-# 1st imput
+# 1st input
 ## I started off asking it to create a terminal tic-tac-toe game using python. It performed this but it was just an example
 ![1st input](https://github.com/dazehead/tic-tac-toe/blob/master/chatGPT_images/1st_input.png)
 
