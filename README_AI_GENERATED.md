@@ -1,5 +1,5 @@
 I started off asking it to create a terminal tic-tac-toe game using python. It perfomred this but it was just an example
-![1st input](1st_input.png)
+![1st input](https://github.com/dazehead/tic-tac-toe/blob/master/chatGPT_images/1st_input.png)
 
 I noticed the code was only in functions and wanted to implement classes
 ![2nd input](2nd_input.png)
