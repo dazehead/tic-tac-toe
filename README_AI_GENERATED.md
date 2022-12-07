@@ -1,3 +1,5 @@
+## This program was written entirely from [openai's](https://chat.openai.com/chat) ChatGPT's AI it took me 4+ hours to write the programming for the [orignal tic-tac-toe](https://github.com/dazehead/tic-tac-toe/blob/master/tic-tac-toe.py) program and when I used the AI it took 20-30 minutes playing and most of this time was used examining just to make sure it was right.
+- there are differnces in the code and i did notice that if i hit *try again* it would re-write the code a completely different way.
 # 1st input
 ## I started off asking it to create a terminal tic-tac-toe game using python. It performed this but it was just an example
 ![1st input](https://github.com/dazehead/tic-tac-toe/blob/master/chatGPT_images/1st_input.png)
